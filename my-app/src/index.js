@@ -22,21 +22,40 @@
 
 
 //ch_04
+// import React from 'react';
+// import ReactDOM from 'react-dom/client';
+// import './index.css';
+// import App from './App';
+// import reportWebVitals from './reportWebVitals';
+
+// import Clock from './ch_04/Clock';
+
+// const root = ReactDOM.createRoot(document.getElementById('root'));
+// setInterval(() => {
+//   root.render(
+//     <React.StrictMode>
+//       <Clock />
+//     </React.StrictMode>
+//   );
+// }, 1000);
+
+// reportWebVitals();
+
+
+
+//ch_05
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
 import reportWebVitals from './reportWebVitals';
 
-import Clock from './ch_04/Clock';
+import CommentList from './ch_05/CommentList';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
-setInterval(() => {
-  root.render(
-    <React.StrictMode>
-      <Clock />
-    </React.StrictMode>
-  );
-}, 1000);
+root.render(
+  <React.StrictMode>
+    <CommentList />
+  </React.StrictMode>
+);
 
 reportWebVitals();
